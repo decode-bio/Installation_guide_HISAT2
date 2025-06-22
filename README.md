@@ -48,5 +48,16 @@ Now it is important to get the reference genome to map sample data with it. To g
 wget https://genome-idx.s3.amazonaws.com/hisat/grch38_genome.tar.gz
 ```
 Likewise we can download the SNP reference genome, transalated reference genome according to the need.
-![image](https://github.com/user-attachments/assets/d31480c0-3500-48dc-a916-d8db133e91ac)
+![image](https://github.com/user-attachments/assets/0c6d9db2-c464-4bbe-aabc-430e8bb02922)
+
 As it is a big file, it will take few minutes or hours(like mine, depend upon net connectivity..lol) to download.
+# Step 4
+Now lets unzip the file content using the following command
+```
+tar -vxzf grch38_genome.tar.gz
+```
+OUTPUT
+![image](https://github.com/user-attachments/assets/f0cb79fa-24bf-45b1-afb6-97b9a1886bc5)
+
+Now as our genome files are extracted, we can use this reference human genime data for the indexing in RNA-seq. WGS, exome-seq, Chip-seq etc. & many more. 
+* Thanks and Happy decoding
